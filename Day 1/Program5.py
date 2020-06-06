@@ -1,0 +1,8 @@
+a=int(input("Enter the runs scored by 1st player in 60 balls: "))
+b=int(input("Enter the runs scored by 2nd player in 60 balls: "))
+c=int(input("Enter the runs scored by 3rd player in 60 balls: "))
+print("Strike rate of 1st player is: ",5*a/3,"%\nStrike rate of 2nd player is: ",5*b/3,"%\nStrike rate of 3rd player is: ",5*c/3,"%")
+print("Runs scored by each player, if they played 60 balls more:")
+print("1st = ",2*a,"\n2nd = ",2*b,"\n3rd = ",2*c)
+print("Maximum no. of sixes hit by each player in 60 balls are:")
+print("1st = ",a//6,"\n2nd = ",b//6,"\n3rd = ",c//6)
