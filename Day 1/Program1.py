@@ -1,0 +1,6 @@
+a= str(input("Enter your name:"))
+b= str(input("Enter your branch:"))
+c= str(input("Enter your college:"))
+d= str(input("Enter your gender:"))
+e= str(input("Enter your age:"))
+print("Name:",a,"\nBranch:",b,"\nCollege:",c,"\nGender:",d,"\nAge:",e)
